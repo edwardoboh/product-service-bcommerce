@@ -4,6 +4,7 @@ import com.edwardoboh.productservicebcommerce.dto.ProductRequest;
 import com.edwardoboh.productservicebcommerce.dto.ProductResponse;
 import com.edwardoboh.productservicebcommerce.service.ProductService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
